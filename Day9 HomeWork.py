@@ -22,6 +22,14 @@ dict_02["Course"] = "Python"
 print("Updated Dictionary:", dict_02)
 
 # Q3: Write a Python program that does the following:
+# """Creates an empty dictionary named student_marks.
+# Adds the following key-value pairs to it:
+# 'Alice': 85
+# 'Bob': 92
+# 'Charlie': 78
+# Ask the user to input a student’s name.
+# Print the marks of that student using the dictionary.
+# If the name doesn’t exist in the dictionary, print "Student not found."""
  
 student_marks = {}
 student_marks['Alice'] = 85
