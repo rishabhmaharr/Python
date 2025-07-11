@@ -4,7 +4,15 @@ print(f"Multiplication Table for {a}:")
 for i in range(1, 11):
     print(f"{a} * {i} = {a * i}")
     
-#Q2: Calculate Sum of numbers in the list [1,4,6,4,9]
-lst_num = [10, 41, 30, 59, 12, 16, 32]
-sum_of_num = sum(lst_num)
-print(f"Sum of numbers in the list {lst_num} is: {sum_of_num}")
+#Q2: Calculate Sum of numbers in the list [1,4,6,4,9] 
+numbers = [1, 4, 6, 4, 9]
+total_sum = 0
+
+for number in numbers:
+    if number > 0:  # Check if the number is positive
+        total_sum += number
+    else:
+        print(f"Bypassing negative number: {number}")
+
+print("The sum of the numbers is:", total_sum)
+
